@@ -5,7 +5,7 @@ class App extends React.Component{
   constructor(){
     super()
     this.state={
-      todo:[{title:'Zeeshan',edit:false},{title:'Omer',edit:false},{title:'Moiz',edit:false}],
+      todo:[{title:'Zeeshan',edit:true},{title:'Omer',edit:false},{title:'Moiz',edit:false}],
       value:'',
       editvalue:''
     }
